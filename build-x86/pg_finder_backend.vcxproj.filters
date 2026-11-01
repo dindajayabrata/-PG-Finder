@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Chandigarh University Programm\C\PG_Finder_Cpp_Web\src\server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Chandigarh University Programm\C\PG_Finder_Cpp_Web\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="D:\Chandigarh University Programm\C\PG_Finder_Cpp_Web\build-x86\vcpkg_installed\x86-windows\share\nlohmann_json\nlohmann_json.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{51CFBE72-ED27-3C7A-8BF5-3741EAC10A19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

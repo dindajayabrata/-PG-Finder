@@ -1,0 +1,3 @@
+D:/Chandigarh University Programm/C/PG_Finder_Cpp_Web/build/CMakeFiles/pg_finder_backend.dir
+D:/Chandigarh University Programm/C/PG_Finder_Cpp_Web/build/CMakeFiles/ALL_BUILD.dir
+D:/Chandigarh University Programm/C/PG_Finder_Cpp_Web/build/CMakeFiles/ZERO_CHECK.dir

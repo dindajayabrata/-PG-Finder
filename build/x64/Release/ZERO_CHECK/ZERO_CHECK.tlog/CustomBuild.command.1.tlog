@@ -1,0 +1,10 @@
+^D:\CHANDIGARH UNIVERSITY PROGRAMM\C\PG_FINDER_CPP_WEB\BUILD\CMAKEFILES\B0E0BE385C4DB9CC2E72519A175BE233\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Chandigarh University Programm/C/PG_Finder_Cpp_Web" "-BD:/Chandigarh University Programm/C/PG_Finder_Cpp_Web/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Chandigarh University Programm/C/PG_Finder_Cpp_Web/build/pg_finder_backend.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

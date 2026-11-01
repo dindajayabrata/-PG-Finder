@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Rooms - PG Finder</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/rooms.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><a href="index.html">PG Finder</a></div>
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="add-room.html">Add Room</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="filter-section" aria-label="Room filters">
+            <form id="filter-form" class="filter-box">
+                <input type="text" id="filter-location" aria-label="City or area" placeholder="Search by city or area...">
+                <select id="filter-type" aria-label="Room type"><option value="">All Room Types</option>
+                    <option value="Single">Single Room</option>
+                    <option value="Double Sharing">Double Sharing</option>
+                    <option value="Triple Sharing">Triple Sharing</option></select>
+                <select id="filter-price" aria-label="Maximum monthly rent">
+                    <option value="">Max Price</option>
+                    <option value="8000">Up to ₹8,000</option>
+                    <option value="12000">Up to ₹12,000</option>
+                    <option value="16000">Up to ₹16,000</option>
+                </select>
+            </form>
+        </section>
+        <section class="common-section">
+            <h2 class="section-title">Available Accommodations</h2>
+            <div id="rooms-grid" class="rooms-grid"><p class="no-rooms">Loading rooms...</p></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>PG Finder</h3>
+                <p>A student project for exploring PG accommodations.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="rooms.html">Browse Rooms</a></li>
+                    <li><a href="add-room.html">List Property</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Send queries through our contact form.</p>
+                <p>Contact details shown in this project are for demonstration.</p>
+            </div>
+        </div>
+        <div class="copyright"><p>&copy; 2026 PG Finder. All rights reserved.</p></div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/rooms.js"></script>
+</body>
+</html>

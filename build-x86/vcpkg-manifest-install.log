@@ -1,0 +1,106 @@
+Detecting compiler hash for triplet x64-windows...
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe
+Detecting compiler hash for triplet x86-windows...
+Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x86/cl.exe
+The following packages will be built and installed:
+  * brotli:x86-windows@1.1.0#1
+    cpp-httplib[brotli,core]:x86-windows@0.19.0
+    nlohmann-json:x86-windows@3.11.3#1
+  * vcpkg-cmake:x64-windows@2024-04-23
+  * vcpkg-cmake-config:x64-windows@2024-05-23
+Additional packages (*) will be modified to complete this operation.
+Restored 2 package(s) from C:\Users\dinda\AppData\Local\vcpkg\archives in 140 ms. Use --debug to see more details.
+Installing 1/5 vcpkg-cmake-config:x64-windows@2024-05-23...
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 40.8 ms
+vcpkg-cmake-config:x64-windows package ABI: 8535ed18be710b61fe0c27b3647c866c09a31b34041b4df50f82491a6ae2bb40
+Installing 2/5 vcpkg-cmake:x64-windows@2024-04-23...
+Elapsed time to handle vcpkg-cmake:x64-windows: 41.2 ms
+vcpkg-cmake:x64-windows package ABI: c98b7c5762e26738326bd4ed19c0c08ebe23582d17d4c7814a986a1a01f29ddd
+Installing 3/5 brotli:x86-windows@1.1.0#1...
+Building brotli:x86-windows@1.1.0#1...
+-- Using cached google-brotli-v1.1.0.tar.gz
+-- Cleaning sources at C:/Users/dinda/vcpkg/buildtrees/brotli/src/v1.1.0-958bece74c.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/dinda/vcpkg/downloads/google-brotli-v1.1.0.tar.gz
+-- Applying patch install.patch
+-- Applying patch fix-arm-uwp.patch
+-- Applying patch pkgconfig.patch
+-- Applying patch emscripten.patch
+-- Using source at C:/Users/dinda/vcpkg/buildtrees/brotli/src/v1.1.0-958bece74c.clean
+-- Found external ninja('1.12.1').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: C:/Users/dinda/vcpkg/packages/brotli_x86-windows/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: C:/Users/dinda/vcpkg/packages/brotli_x86-windows/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: C:/Users/dinda/vcpkg/packages/brotli_x86-windows/lib/pkgconfig/libbrotlienc.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/dinda/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/Users/dinda/vcpkg/packages/brotli_x86-windows/debug/lib/pkgconfig/libbrotlicommon.pc
+-- Fixing pkgconfig file: C:/Users/dinda/vcpkg/packages/brotli_x86-windows/debug/lib/pkgconfig/libbrotlidec.pc
+-- Fixing pkgconfig file: C:/Users/dinda/vcpkg/packages/brotli_x86-windows/debug/lib/pkgconfig/libbrotlienc.pc
+-- Installing: C:/Users/dinda/vcpkg/packages/brotli_x86-windows/share/brotli/usage
+-- Installing: C:/Users/dinda/vcpkg/packages/brotli_x86-windows/share/brotli/copyright
+-- Performing post-build validation
+Starting submission of brotli:x86-windows to 1 binary cache(s) in the background
+Elapsed time to handle brotli:x86-windows: 20 s
+brotli:x86-windows package ABI: beff8260263c7c6220820864a862b3e4b650ab2eb62f4cccdb48d583f1ef0d3c
+Installing 4/5 cpp-httplib[brotli,core]:x86-windows@0.19.0...
+Building cpp-httplib[brotli,core]:x86-windows@0.19.0...
+-- Using cached yhirose-cpp-httplib-v0.19.0.tar.gz
+-- Cleaning sources at C:/Users/dinda/vcpkg/buildtrees/cpp-httplib/src/v0.19.0-032998acd4.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/dinda/vcpkg/downloads/yhirose-cpp-httplib-v0.19.0.tar.gz
+-- Applying patch fix-find-brotli.patch
+-- Using source at C:/Users/dinda/vcpkg/buildtrees/cpp-httplib/src/v0.19.0-032998acd4.clean
+-- Found external ninja('1.12.1').
+-- Configuring x86-windows
+-- Building x86-windows-rel
+-- Installing: C:/Users/dinda/vcpkg/packages/cpp-httplib_x86-windows/share/cpp-httplib/copyright
+-- Installing: C:/Users/dinda/vcpkg/packages/cpp-httplib_x86-windows/share/cpp-httplib/usage
+-- Performing post-build validation
+Starting submission of cpp-httplib:x86-windows to 1 binary cache(s) in the background
+Elapsed time to handle cpp-httplib:x86-windows: 5.4 s
+cpp-httplib:x86-windows package ABI: 5723920a6f710f71781b927b23d568b22e52c8f52f61738281beb817f792d623
+Completed submission of brotli:x86-windows to 1 binary cache(s) in 713 ms
+Installing 5/5 nlohmann-json:x86-windows@3.11.3#1...
+Building nlohmann-json:x86-windows@3.11.3#1...
+-- Using cached nlohmann-json-v3.11.3.tar.gz
+-- Cleaning sources at C:/Users/dinda/vcpkg/buildtrees/nlohmann-json/src/v3.11.3-434e7fbc3e.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source C:/Users/dinda/vcpkg/downloads/nlohmann-json-v3.11.3.tar.gz
+-- Using source at C:/Users/dinda/vcpkg/buildtrees/nlohmann-json/src/v3.11.3-434e7fbc3e.clean
+-- Found external ninja('1.12.1').
+-- Configuring x86-windows
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Fixing pkgconfig file: C:/Users/dinda/vcpkg/packages/nlohmann-json_x86-windows/share/pkgconfig/nlohmann_json.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/dinda/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/Users/dinda/vcpkg/packages/nlohmann-json_x86-windows/debug/share/pkgconfig/nlohmann_json.pc
+-- Installing: C:/Users/dinda/vcpkg/packages/nlohmann-json_x86-windows/share/nlohmann-json/copyright
+-- Performing post-build validation
+Starting submission of nlohmann-json:x86-windows to 1 binary cache(s) in the background
+Elapsed time to handle nlohmann-json:x86-windows: 6.1 s
+nlohmann-json:x86-windows package ABI: 03e4e6dc7bf9474ca5f08efbe8451c7cdc18f655819bccf4de7a0f0873b60eac
+Total install time: 32 s
+cpp-httplib provides CMake targets:
+
+    find_package(httplib CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE httplib::httplib)
+
+The package nlohmann-json provides CMake targets:
+
+    find_package(nlohmann_json CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE nlohmann_json::nlohmann_json)
+
+The package nlohmann-json can be configured to not provide implicit conversions via a custom triplet file:
+
+    set(nlohmann-json_IMPLICIT_CONVERSIONS OFF)
+
+For more information, see the docs here:
+    
+    https://json.nlohmann.me/api/macros/json_use_implicit_conversions/
+
+Completed submission of cpp-httplib:x86-windows to 1 binary cache(s) in 187 ms
+Waiting for 1 remaining binary cache submissions...
+Completed submission of nlohmann-json:x86-windows to 1 binary cache(s) in 231 ms (1/1)

@@ -1,0 +1,9 @@
+.form-section { padding: 60px 20px; background: #f7f9fc; }
+.form-container { width: 90%; max-width: 650px; margin: auto; padding: 35px; background: white; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,.08); }
+.form-container h2 { margin-bottom: 25px; text-align: center; }
+.form-container form { display: flex; flex-direction: column; }
+.form-container label { margin-bottom: 6px; font-weight: bold; }
+.form-container input, .form-container select, .form-container textarea { width: 100%; padding: 12px; margin-bottom: 18px; border: 1px solid #ddd; border-radius: 5px; font-family: Arial,sans-serif; }
+.form-container textarea { resize: vertical; }
+.form-container input:focus, .form-container select:focus, .form-container textarea:focus { outline: none; border-color: #2563eb; }
+@media (max-width: 650px) { .form-container { width: 100%; padding: 25px 20px; } }

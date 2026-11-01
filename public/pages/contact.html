@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PG Finder</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><a href="index.html">PG Finder</a></div>
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="add-room.html">Add Room</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html" class="btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="form-section">
+            <div class="form-container">
+                <h2>Get In Touch</h2>
+                <form id="contact-form">
+                    <label for="contact-name">Your Full Name</label>
+                    <input type="text" id="contact-name" maxlength="100" placeholder="Your name" required>
+                    <label for="contact-email">Email Address</label>
+                    <input type="email" id="contact-email" maxlength="100" placeholder="name@example.com" required>
+                    <label for="contact-subject">Subject</label>
+                    <input type="text" id="contact-subject" maxlength="150" placeholder="Query topic...">
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" rows="5" maxlength="1000" placeholder="Write your query or feedback..." required></textarea>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>PG Finder</h3>
+                <p>A student project for exploring PG accommodations.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="rooms.html">Browse Rooms</a></li>
+                    <li><a href="add-room.html">List Property</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Send queries through our contact form.</p>
+                <p>Contact details shown in this project are for demonstration.</p>
+            </div>
+        </div>
+        <div class="copyright"><p>&copy; 2026 PG Finder. All rights reserved.</p></div>
+    </footer>
+    <script src="../js/main.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+</html>

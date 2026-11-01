@@ -1,0 +1,24 @@
+.filter-section { padding: 30px 7%; background: #f7f9fc; }
+.filter-box { display: flex; flex-wrap: wrap; gap: 15px; }
+.filter-box input, .filter-box select { flex: 1; min-width: 180px; padding: 12px; border: 1px solid #ddd; border-radius: 5px; font-family: Arial,sans-serif; }
+.filter-box input:focus, .filter-box select:focus { outline: none; border-color: #2563eb; }
+.rooms-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(280px,1fr)); gap: 25px; }
+.room-card { background: white; border: 1px solid #e5e7eb; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,.05); transition: transform .2s; display: flex; flex-direction: column; }
+.room-card:hover { transform: translateY(-4px); }
+.room-img-wrapper { position: relative; width: 100%; height: 180px; background: #e5e7eb; }
+.room-img-wrapper img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.fav-btn { position: absolute; top: 12px; right: 12px; background: rgba(255,255,255,.9); border: none; border-radius: 50%; width: 36px; height: 36px; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 6px rgba(0,0,0,.15); }
+.fav-btn.active { color: #e11d48; }
+.room-details { padding: 20px; display: flex; flex-direction: column; flex-grow: 1; overflow-wrap: anywhere; }
+.room-details h3 { font-size: 18px; margin-bottom: 8px; }
+.room-details .location { color: #666; font-size: 14px; margin-bottom: 12px; }
+.room-meta { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: auto; padding-top: 12px; border-top: 1px solid #f0f0f0; }
+.price { font-size: 18px; font-weight: bold; color: #2563eb; }
+.badge { background: #eff6ff; color: #2563eb; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+.no-rooms { grid-column: 1 / -1; text-align: center; padding: 40px; color: #666; font-size: 18px; }
+.no-rooms a { color: #2563eb; }
+@media (max-width: 650px) {
+    .filter-box { flex-direction: column; }
+    .filter-box input, .filter-box select { min-width: 0; width: 100%; }
+    .rooms-grid { grid-template-columns: 1fr; }
+}
